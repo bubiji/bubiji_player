@@ -1,0 +1,32 @@
+{
+  "data": [
+      {
+      "id": 1,
+      "title": "Method",
+      "artist": "Bubiji",
+      "pic": "http://files.git.oschina.net/group1/M00/00/1A/ZxV3cFdSrMqAZwG0AAOjw-5wazE710.jpg?token=74933614ce9a9ac950186f35a15f724d&ts=1465036409&attname=sike1.jpg",
+      "music_url" : "http://aufree.qiniudn.com/1_Intro_MAIN.mp3",
+      "file_name" : "1_Intro_MAIN",
+      "content": "方法论介绍"
+      },
+      {
+      "id": 2,
+      "title": "Vocab",
+      "artist": "Bubiji",
+      "pic": "http://files.git.oschina.net/group1/M00/00/1A/ZxV3cFdSrVSAFwL9AABzC-coVHU996.jpg?token=c7a43dfec54ad99471277b07b5dc5072&ts=1465036409&attname=sike3.jpg",
+      "music_url" : "http://aufree.qiniudn.com/2_Intro_VOCAB.mp3.mp3",
+      "file_name" : "2_Intro_VOCAB",
+      "content": "单词讲解"
+      },
+      {
+      "id": 3,
+      "title": "Story",
+      "artist": "Bubiji",
+      "pic": "http://files.git.oschina.net/group1/M00/00/1A/ZxV3cFdSpWqASYDgAADL1a9jsdw289.jpg?token=64d6818abfd3dfdd7bddc1cf40f644ce&ts=1465034144&attname=sike2.jpg",
+      "music_url" : "http://aufree.qiniudn.com/3_Intro_MINI_STORY.mp3",
+      "file_name" : "3_Intro_MINI_STORY",
+      "content": "互动故事"
+      }
+
+  ]
+}

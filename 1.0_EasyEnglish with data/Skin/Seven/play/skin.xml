@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Theme Name="Seven" Author="TTPod" Ver="1.5" Size="640 960" EMail="support@ttpod.com" WebPage="http://www.ttpod.com">
+    
+	<View ID="Portait" BackGround="0" StatusBar="Black">
+		<Panel ID="Common" >
+			<Button ID="ListButton" Position="0 0 640 80" NormalIcon="4" ZOrder="3" />
+			
+			<Slide ID="Guage" Position="-20 866 680 54" KnobIcon="17" SlideIcon="15" BkgIcon="16" Style="Horiz" ZOrder="5" />
+			<Text ID="Played" Position="0 848 95 36" FontName="Thonburi-Bold" FontSize="32" FontColor="250 250 250" ZOrder="2" />
+			<Text ID="Duration" Position="545 848 95 36" FontName="Thonburi-Bold" FontSize="32" FontColor="250 250 250" ZOrder="2" />
+
+		</Panel>
+
+		<Panel ID="Main" >
+			<Button ID="RepeatButton" Position="23 72 181 181" NormalIcon="6 7 8 9" ZOrder="4" />
+			<Button ID="PrevSongButton" Position="23 270 181 181" NormalIcon="23" ZOrder="4" />
+			<Button ID="PlayPauseButton" Position="23 468 181 181" NormalIcon="19 20" ZOrder="4" />
+			<Button ID="NextSongButton" Position="23 666 181 181" NormalIcon="25" ZOrder="4" />
+
+			<Icon ID="AlbumEdge" Position="223 71 400 399" Icon="27" ZOrder="2" />
+			<Image ID="AlbumCover" Position="234 81 378 381" DefaultImage="28" Zoom="Fit" />
+
+			<Icon ID="LrcBkg" Position="223 500 400 239" Icon="30" />
+			<Text ID="Artist" Position="280 518 330 58" FontName="Thonburi-Bold" FontSize="44" FontColor="255 255 255" Align="Right" ZOrder="3" />
+			<Text ID="Title" Position="280 576 330 38" FontName="Thonburi-Bold" FontSize="32" FontColor="56 96 121" Align="Right" ZOrder="3" />
+			<LyricShow ID="LyricShow" Position="234 624 378 106" FontName="Thonburi-Bold" FontSize="32" FontColor="255 255 255" FontNameSelected="Thonburi-Bold" FontSizeSelected="32" FontColorSelected="56 96 121" ZOrder="2" />
+		</Panel>
+
+		<Panel ID="Lyric" >
+			<Icon ID="LrcBkg" Position="35 100 570 660" Icon="1" />
+			<LyricShow ID="LyricShow" Position="45 110 550 640" FontName="Thonburi-Bold" FontSize="34" FontColor="255 255 255" FontNameSelected="Thonburi-Bold" FontSizeSelected="38" FontColorSelected="56 96 121" ZOrder="2" />
+		</Panel>
+
+	</View>
+</Theme>

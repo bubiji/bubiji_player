@@ -1,0 +1,233 @@
+{
+  "data": [
+      {
+      "id": 1,
+      "title": "Method",
+      "artist": "Bubiji",
+      "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLfKAC4RqAACcOmpJZm0427.jpg",
+           "music_url_bak":"http://files.git.oschina.net/group1/M00/00/86/ZxV3cFelnaGAMAMSAKmz6iWsD8w348.mp3",
+      "file_name" : "1_Intro_MAIN",
+      "content": "方法论介绍",
+      "music_url" : "http://files.git.oschina.net/group1/M00/00/87/ZxV3cFepQ4uAYhvPAABk1Fnm0GY048.mp3"
+
+      },
+      {
+      "id": 2,
+      "title": "Vocab",
+      "artist": "Bubiji",
+      "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+      "music_url" : "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFeloGmACMnMAFzmYYiPInQ907.mp3",
+      "file_name" : "2_Intro_VOCAB",
+      "content": "单词讲解"
+      },
+      {
+      "id": 3,
+      "title": "Story",
+      "artist": "Bubiji",
+      "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLfKAC4RqAACcOmpJZm0427.jpg",
+      "music_url" : "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFemCjOAHuRJAN_UR9qBwcc576.mp3",
+      "file_name" : "3_Intro_MINI_STORY",
+      "content": "互动故事"
+      },
+           {
+           "id": 4,
+           "title": "Method",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLfKAC4RqAACcOmpJZm0427.jpg",
+           "music_url" : "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFemClyAV3CcAMHkq_hRors327.mp3",
+           "file_name" : "1_Emotional_Mastery_MAIN",
+           "content": "方法论介绍"
+           },
+           {
+           "id": 5,
+           "title": "Vocab",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFemCmuAQp7WAGNgTShCPlo343.mp3",
+           "file_name" : "2_Emotional_Mastery_VOCAB",
+           "content": "单词讲解"
+           },
+           {
+           "id": 6,
+           "title": "Story",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFemCoCAM0UfAOotxspM-sI468.mp3",
+           "file_name" : "3_Emotional_Mastery_MINI_STORY",
+           "content": "互动故事"
+           }
+           ,
+           {
+           "id": 7,
+           "title": "Method",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLfKAC4RqAACcOmpJZm0427.jpg",
+           "music_url" : "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFemC2WASC6OAJsVXSvIYkI969.mp3",
+           "file_name" : "1_Emotional_Mastery_2_MAIN",
+           "content": "方法论介绍"
+           },
+           {
+           "id": 8,
+           "title": "Vocab",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFemC3mAMzlMAFpOeuiDDfo606.mp3",
+           "file_name" : "2_Emotional_Mastery_2_VOCAB",
+           "content": "单词讲解"
+           },
+           {
+           "id": 9,
+           "title": "Story",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFemC4qARdYiAKT0mHcXJ2s124.mp3",
+           "file_name" : "3_Emotional_Mastery_2_MINI_STORY",
+           "content": "互动故事"
+           }
+           ,
+           {
+           "id": 10,
+           "title": "Method",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLfKAC4RqAACcOmpJZm0427.jpg",
+           "music_url" : "http://aufree.qiniudn.com/1_Emotional_Mastery_2_MAIN.mp3",
+           "file_name" : "1_Beliefs_MAIN",
+           "content": "方法论介绍"
+           },
+           {
+           "id": 11,
+           "title": "Vocab",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://aufree.qiniudn.com/2_Emotional_Mastery_2_VOCAB.mp3",
+           "file_name" : "2_Beliefs_VOCAB",
+           "content": "单词讲解"
+           },
+           {
+           "id": 12,
+           "title": "Story",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://aufree.qiniudn.com/3_Emotional_Mastery_2_MINI_STORY.mp3",
+           "file_name" : "3_Beliefs_MINI_STORY",
+           "content": "互动故事"
+           }
+           ,
+           {
+           "id": 13,
+           "title": "Method",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLfKAC4RqAACcOmpJZm0427.jpg",
+           "music_url" : "http://aufree.qiniudn.com/1_Emotional_Mastery_2_MAIN.mp3",
+           "file_name" : "1_Thought_Mastery",
+           "content": "方法论介绍"
+           },
+           {
+           "id": 14,
+           "title": "Vocab",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://aufree.qiniudn.com/2_Emotional_Mastery_2_VOCAB.mp3",
+           "file_name" : "2_Thought_Mastery_VOCAB",
+           "content": "单词讲解"
+           },
+           {
+           "id": 15,
+           "title": "Story",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://aufree.qiniudn.com/3_Emotional_Mastery_2_MINI_STORY.mp3",
+           "file_name" : "3_Thought_Mastery_MINI_STORY",
+           "content": "互动故事"
+           }
+           ,
+           {
+           "id": 16,
+           "title": "Method",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLfKAC4RqAACcOmpJZm0427.jpg",
+           "music_url" : "http://aufree.qiniudn.com/1_Emotional_Mastery_2_MAIN.mp3",
+           "file_name" : "1_Models_MAIN",
+           "content": "方法论介绍"
+           },
+           {
+           "id": 17,
+           "title": "Vocab",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://aufree.qiniudn.com/2_Emotional_Mastery_2_VOCAB.mp3",
+           "file_name" : "2_Models_VOCAB",
+           "content": "单词讲解"
+           },
+           {
+           "id": 18,
+           "title": "Story",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://aufree.qiniudn.com/3_Emotional_Mastery_2_MINI_STORY.mp3",
+           "file_name" : "3_Models_MINI_STORY",
+           "content": "互动故事"
+           }
+           ,
+           {
+           "id": 19,
+           "title": "Method",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLfKAC4RqAACcOmpJZm0427.jpg",
+           "music_url" : "http://aufree.qiniudn.com/1_Emotional_Mastery_2_MAIN.mp3",
+           "file_name" : "1_Repetition",
+           "content": "方法论介绍"
+           },
+           {
+           "id": 20,
+           "title": "Vocab",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://aufree.qiniudn.com/2_Emotional_Mastery_2_VOCAB.mp3",
+           "file_name" : "2_Repetition_VOCAB",
+           "content": "单词讲解"
+           },
+           {
+           "id": 21,
+           "title": "Story",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://aufree.qiniudn.com/3_Emotional_Mastery_2_MINI_STORY.mp3",
+           "file_name" : "3_Repetition_MINI_STORY",
+           "content": "互动故事"
+           }
+           ,
+           {
+           "id": 22,
+           "title": "Method",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLfKAC4RqAACcOmpJZm0427.jpg",
+           "music_url" : "http://aufree.qiniudn.com/1_Emotional_Mastery_2_MAIN.mp3",
+           "file_name" : "1_Identity",
+           "content": "方法论介绍"
+           },
+           {
+           "id": 23,
+           "title": "Vocab",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://aufree.qiniudn.com/2_Emotional_Mastery_2_VOCAB.mp3",
+           "file_name" : "2_Identity_VOCAB",
+           "content": "单词讲解"
+           },
+           {
+           "id": 24,
+           "title": "Story",
+           "artist": "Bubiji",
+           "pic": "http://files.git.oschina.net/group1/M00/00/86/ZxV3cFenLeuAY0P3AACkhvypvAM390.jpg",
+           "music_url" : "http://aufree.qiniudn.com/3_Emotional_Mastery_2_MINI_STORY.mp3",
+           "file_name" : "3_Identity_MINI_STORY",
+           "content": "互动故事"
+           }
+           
+           
+           
+           
+         
+  ]
+}
