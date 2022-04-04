@@ -1,23 +1,23 @@
 PODS:
-  - AFNetworking (2.5.4):
-    - AFNetworking/NSURLConnection (= 2.5.4)
-    - AFNetworking/NSURLSession (= 2.5.4)
-    - AFNetworking/Reachability (= 2.5.4)
-    - AFNetworking/Security (= 2.5.4)
-    - AFNetworking/Serialization (= 2.5.4)
-    - AFNetworking/UIKit (= 2.5.4)
-  - AFNetworking/NSURLConnection (2.5.4):
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.4):
+  - AFNetworking/NSURLSession (2.7.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.4)
-  - AFNetworking/Security (2.5.4)
-  - AFNetworking/Serialization (2.5.4)
-  - AFNetworking/UIKit (2.5.4):
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - DOUAudioStreamer (0.2.11)
@@ -25,11 +25,13 @@ PODS:
   - Mantle (1.5.5):
     - Mantle/extobjc (= 1.5.5)
   - Mantle/extobjc (1.5.5)
-  - MBProgressHUD (0.9.2)
-  - SDWebImage (3.7.6):
-    - SDWebImage/Core (= 3.7.6)
-  - SDWebImage/Core (3.7.6)
-  - Zhugeio (1.4.5)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.9.5):
+    - SDWebImage/Core (= 5.9.5)
+  - SDWebImage/Core (5.9.5)
+  - Zhugeio (3.2.5):
+    - Zhugeio/Zhugeio (= 3.2.5)
+  - Zhugeio/Zhugeio (3.2.5)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
@@ -40,15 +42,25 @@ DEPENDENCIES:
   - SDWebImage
   - Zhugeio
 
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - DOUAudioStreamer
+    - GVUserDefaults
+    - Mantle
+    - MBProgressHUD
+    - SDWebImage
+    - Zhugeio
+
 SPEC CHECKSUMS:
-  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
   DOUAudioStreamer: 8aefc3e80eb6c01ec89fa3c30743c660e8c55bae
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
-  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
-  Zhugeio: e8a101bb7b3d78192de176f0e281c4c985f938bb
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
+  Zhugeio: 87c5ec4b2e1783b9837a6ea9ca21818285523bc1
 
 PODFILE CHECKSUM: dc57368c603de60fac8ed20a53e1a993352b16ed
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.11.3

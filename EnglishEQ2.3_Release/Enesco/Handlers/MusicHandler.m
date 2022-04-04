@@ -25,10 +25,10 @@
         NSString *imageWidth = [NSString stringWithFormat:@"%.f", (SCREEN_WIDTH - 70) * 2];
         MusicEntity *music = musicEntities[indexNum.integerValue];
         NSURL *imageUrl = [BaseHelper qiniuImageCenter:music.cover withWidth:imageWidth withHeight:imageWidth];
-        UIImage *image = [[SDImageCache sharedImageCache] imageFromDiskCacheForKey:imageUrl.absoluteString];
-        if (!image) {
-            [[SDWebImageDownloader sharedDownloader] downloadImageWithURL:imageUrl options:SDWebImageDownloaderUseNSURLCache progress:nil completed:nil];
-        }
+//        UIImage *image = [[SDImageCache sharedImageCache] imageFromDiskCacheForKey:imageUrl.absoluteString];
+//        if (!image) {
+//            [[SDWebImageDownloader sharedDownloader] downloadImageWithURL:imageUrl options:SDWebImageDownloaderUseNSURLCache progress:nil completed:nil];
+//        }
     }
 }
 
