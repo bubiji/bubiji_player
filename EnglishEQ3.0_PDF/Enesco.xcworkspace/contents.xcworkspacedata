@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/DeanLee/bubiji/EnglishEQ3.0_PDF/Enesco.xcodeproj">
+      location = "group:../EnglishEQ2.3_Release/Enesco2.2.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:../EnglishEQ2.3_Release/Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
