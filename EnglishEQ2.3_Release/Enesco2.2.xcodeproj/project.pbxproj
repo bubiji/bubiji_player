@@ -66,7 +66,6 @@
 		A0AA66791D0AADB500697FE8 /* BravoScriptSSK.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA66781D0AADB500697FE8 /* BravoScriptSSK.ttf */; };
 		A0AA667D1D0AB10B00697FE8 /* AladdinRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA667C1D0AB10B00697FE8 /* AladdinRegular.ttf */; };
 		BC06997F1D15343900C3B6FB /* AVAudioPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06997C1D15343900C3B6FB /* AVAudioPlayerManager.m */; };
-		BC15321C1D007DDD001B30AA /* UserInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC15321B1D007DDD001B30AA /* UserInfoStoryboard.storyboard */; };
 		BC15321F1D007DF6001B30AA /* UserinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC15321E1D007DF6001B30AA /* UserinfoViewController.m */; };
 		BC9C45321D241E3100B4F965 /* 1_Intro_MAIN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC9C45271D241E3100B4F965 /* 1_Intro_MAIN.mp3 */; };
 		BC9C45331D241E3100B4F965 /* 2_Intro_VOCAB.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC9C45281D241E3100B4F965 /* 2_Intro_VOCAB.mp3 */; };
@@ -210,7 +209,6 @@
 		A3991132783B75FE843E08A7 /* libPods-Enesco2.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Enesco2.2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC06997B1D15343900C3B6FB /* AVAudioPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioPlayerManager.h; sourceTree = "<group>"; };
 		BC06997C1D15343900C3B6FB /* AVAudioPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerManager.m; sourceTree = "<group>"; };
-		BC15321B1D007DDD001B30AA /* UserInfoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = UserInfoStoryboard.storyboard; path = Userinfo/UserInfoStoryboard.storyboard; sourceTree = "<group>"; };
 		BC15321D1D007DF6001B30AA /* UserinfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserinfoViewController.h; path = Userinfo/UserinfoViewController.h; sourceTree = "<group>"; };
 		BC15321E1D007DF6001B30AA /* UserinfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserinfoViewController.m; path = Userinfo/UserinfoViewController.m; sourceTree = "<group>"; };
 		BC28EFC81D03C599004F80A5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
@@ -371,7 +369,6 @@
 			children = (
 				A03F0D3B1D0715700091DD45 /* Process */,
 				A03F0D311D06F88C0091DD45 /* login */,
-				BC15321A1D007DB4001B30AA /* Userinfo_no */,
 				A033FFE21CFFD5DC00F53698 /* MusicListWithSection */,
 				5643E1AF1C0C35D5005D1A1C /* MusicList */,
 				5643E1A61C0C35CC005D1A1C /* Music */,
@@ -692,14 +689,6 @@
 			name = Userinfo_no;
 			sourceTree = "<group>";
 		};
-		BC15321A1D007DB4001B30AA /* Userinfo_no */ = {
-			isa = PBXGroup;
-			children = (
-				BC15321B1D007DDD001B30AA /* UserInfoStoryboard.storyboard */,
-			);
-			name = Userinfo_no;
-			sourceTree = "<group>";
-		};
 		BC9C45251D241E3100B4F965 /* English */ = {
 			isa = PBXGroup;
 			children = (
@@ -848,7 +837,6 @@
 				A03F0D281D0422CF0091DD45 /* lock.jpg in Resources */,
 				56DBB02B1C116A280089EC56 /* music_list.json in Resources */,
 				BC9C45331D241E3100B4F965 /* 2_Intro_VOCAB.mp3 in Resources */,
-				BC15321C1D007DDD001B30AA /* UserInfoStoryboard.storyboard in Resources */,
 				A0AA667D1D0AB10B00697FE8 /* AladdinRegular.ttf in Resources */,
 				A03F0D261D03E24E0091DD45 /* MusicListWithSection2.storyboard in Resources */,
 				A0AA66791D0AADB500697FE8 /* BravoScriptSSK.ttf in Resources */,
