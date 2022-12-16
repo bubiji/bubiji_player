@@ -92,14 +92,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BC28EFD81D03C599004F80A5 /* Embed App Extensions */ = {
+		BC28EFD81D03C599004F80A5 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -216,10 +216,6 @@
 		BC15321D1D007DF6001B30AA /* UserinfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserinfoViewController.h; path = Userinfo/UserinfoViewController.h; sourceTree = "<group>"; };
 		BC15321E1D007DF6001B30AA /* UserinfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserinfoViewController.m; path = Userinfo/UserinfoViewController.m; sourceTree = "<group>"; };
 		BC28EFC81D03C599004F80A5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		BC28EFCB1D03C599004F80A5 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
-		BC28EFCC1D03C599004F80A5 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
-		BC28EFCF1D03C599004F80A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		BC28EFD11D03C599004F80A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9C45271D241E3100B4F965 /* 1_Intro_MAIN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1_Intro_MAIN.mp3; sourceTree = "<group>"; };
 		BC9C45281D241E3100B4F965 /* 2_Intro_VOCAB.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2_Intro_VOCAB.mp3; sourceTree = "<group>"; };
 		BC9C45291D241E3100B4F965 /* 3_Intro_MINI_STORY.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3_Intro_MINI_STORY.mp3; sourceTree = "<group>"; };
@@ -282,7 +278,6 @@
 				A033FF9F1CFEEA6800F53698 /* DALHelper */,
 				A033FF9E1CFEE99800F53698 /* Database */,
 				5643E14D1C0C2AEA005D1A1C /* Enesco */,
-				BC28EFCA1D03C599004F80A5 /* PlayToday */,
 				5643E1671C0C2AEA005D1A1C /* EnescoTests */,
 				5643E1721C0C2AEA005D1A1C /* EnescoUITests */,
 				5643E14C1C0C2AEA005D1A1C /* Products */,
@@ -708,17 +703,6 @@
 			name = Userinfo_no;
 			sourceTree = "<group>";
 		};
-		BC28EFCA1D03C599004F80A5 /* PlayToday */ = {
-			isa = PBXGroup;
-			children = (
-				BC28EFCB1D03C599004F80A5 /* TodayViewController.h */,
-				BC28EFCC1D03C599004F80A5 /* TodayViewController.m */,
-				BC28EFCE1D03C599004F80A5 /* MainInterface.storyboard */,
-				BC28EFD11D03C599004F80A5 /* Info.plist */,
-			);
-			path = PlayToday;
-			sourceTree = "<group>";
-		};
 		BC9C45251D241E3100B4F965 /* English */ = {
 			isa = PBXGroup;
 			children = (
@@ -758,7 +742,7 @@
 				5643E1471C0C2AEA005D1A1C /* Sources */,
 				5643E1481C0C2AEA005D1A1C /* Frameworks */,
 				5643E1491C0C2AEA005D1A1C /* Resources */,
-				BC28EFD81D03C599004F80A5 /* Embed App Extensions */,
+				BC28EFD81D03C599004F80A5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -811,7 +795,7 @@
 		5643E1431C0C2AEA005D1A1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = aufree;
 				TargetAttributes = {
 					5643E14A1C0C2AEA005D1A1C = {
@@ -1029,14 +1013,6 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		BC28EFCE1D03C599004F80A5 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC28EFCF1D03C599004F80A5 /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -1149,15 +1125,23 @@
 			baseConfigurationReference = C9BEED1D7D2D395CCE610F75 /* Pods-Enesco2.2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3;
 				GCC_PREFIX_HEADER = "Enesco/Enesco2.2-Prefix.pch";
 				INFOPLIST_FILE = Enesco/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dean.bubiji;
 				PRODUCT_NAME = Enesco2.2;
 				PROVISIONING_PROFILE = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1166,15 +1150,23 @@
 			baseConfigurationReference = 3BA3D04A95C8DB038A15EC81 /* Pods-Enesco2.2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3;
 				GCC_PREFIX_HEADER = "Enesco/Enesco2.2-Prefix.pch";
 				INFOPLIST_FILE = Enesco/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dean.bubiji;
 				PRODUCT_NAME = Enesco2.2;
 				PROVISIONING_PROFILE = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

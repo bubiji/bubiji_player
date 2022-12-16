@@ -70,8 +70,15 @@
     //跟踪用户
     [[Zhuge sharedInstance] identify:userId properties:userInfo];
     
-    UIAlertView * alert =  [[UIAlertView alloc]initWithTitle:@"成功" message:@"加油吧"  delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil,nil ];
-    [alert show];
+//    UIAlertView * alert =  [[UIAlertView alloc]initWithTitle:@"成功" message:@"加油吧"  delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil,nil ];
+//    [alert show];
+//
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"" message:@"注册成功" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *conform = [UIAlertAction actionWithTitle:@"确认" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"点击了确认按钮");
+    }];
+    [alert addAction:conform];
+    [self presentViewController:alert animated:YES completion:nil];
     _txtPhoneNum.text= userInfo[@"mobile"];
     [_txtPhoneNum setUserInteractionEnabled:NO] ;
     btnLogin.hidden=YES;
@@ -272,8 +279,21 @@
     }
     
     
-    UIAlertView * alert =  [[UIAlertView alloc]initWithTitle:@"错误" message:@"请输入你提供的手机号"  delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
-    [alert show];
+//    UIAlertView * alert =  [[UIAlertView alloc]initWithTitle:@"错误" message:@"请输入你提供的手机号"  delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+//    [alert show];
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"错误" message:@"请输入你提供的手机号" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *conform = [UIAlertAction actionWithTitle:@"确认" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"点击了确认按钮");
+    }];
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"点击了取消按钮");
+    }];
+ 
+    [alert addAction:conform];
+    [alert addAction:cancel];
+    [self presentViewController:alert animated:YES completion:nil];
+
     
 }
 
