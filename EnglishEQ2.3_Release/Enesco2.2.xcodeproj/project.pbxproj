@@ -46,7 +46,6 @@
 		A033FFCC1CFF090400F53698 /* DAL.m in Sources */ = {isa = PBXBuildFile; fileRef = A033FFCB1CFF090400F53698 /* DAL.m */; };
 		A033FFDE1CFFD3EE00F53698 /* MusicSectionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A033FFDD1CFFD3EE00F53698 /* MusicSectionListViewController.m */; };
 		A033FFE11CFFD5D200F53698 /* MusicListWithSectionCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A033FFE01CFFD5D200F53698 /* MusicListWithSectionCellTableViewCell.m */; };
-		A033FFE41CFFD61D00F53698 /* MusicListWithSection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A033FFE31CFFD61D00F53698 /* MusicListWithSection.storyboard */; };
 		A033FFE71D00013900F53698 /* SectionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A033FFE61D00013900F53698 /* SectionClass.m */; };
 		A033FFEB1D0075C500F53698 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A033FFEA1D0075C500F53698 /* Helper.m */; };
 		A03F0D1C1D03D6D30091DD45 /* FourTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F0D171D03D6D30091DD45 /* FourTableViewCell.m */; };
@@ -175,7 +174,6 @@
 		A033FFDD1CFFD3EE00F53698 /* MusicSectionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MusicSectionListViewController.m; path = MusicListWithSection/MusicSectionListViewController.m; sourceTree = "<group>"; };
 		A033FFDF1CFFD5D200F53698 /* MusicListWithSectionCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MusicListWithSectionCellTableViewCell.h; path = MusicListWithSection/MusicListWithSectionCellTableViewCell.h; sourceTree = "<group>"; };
 		A033FFE01CFFD5D200F53698 /* MusicListWithSectionCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MusicListWithSectionCellTableViewCell.m; path = MusicListWithSection/MusicListWithSectionCellTableViewCell.m; sourceTree = "<group>"; };
-		A033FFE31CFFD61D00F53698 /* MusicListWithSection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MusicListWithSection.storyboard; path = MusicListWithSection/MusicListWithSection.storyboard; sourceTree = "<group>"; };
 		A033FFE51D00013900F53698 /* SectionClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionClass.h; path = Enesco/DatabaseModels/SectionClass.h; sourceTree = "<group>"; };
 		A033FFE61D00013900F53698 /* SectionClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionClass.m; path = Enesco/DatabaseModels/SectionClass.m; sourceTree = "<group>"; };
 		A033FFE91D0075C500F53698 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Helper.h; path = Enesco/Helper/Helper.h; sourceTree = "<group>"; };
@@ -588,7 +586,6 @@
 				A03F0D151D03D6BD0091DD45 /* MusicCell */,
 				A033FFDF1CFFD5D200F53698 /* MusicListWithSectionCellTableViewCell.h */,
 				A033FFE01CFFD5D200F53698 /* MusicListWithSectionCellTableViewCell.m */,
-				A033FFE31CFFD61D00F53698 /* MusicListWithSection.storyboard */,
 				A03F0D251D03E24E0091DD45 /* MusicListWithSection2.storyboard */,
 			);
 			name = MusicListWithSection;
@@ -856,7 +853,6 @@
 				A03F0D261D03E24E0091DD45 /* MusicListWithSection2.storyboard in Resources */,
 				A0AA66791D0AADB500697FE8 /* BravoScriptSSK.ttf in Resources */,
 				A03F0D331D06F8AF0091DD45 /* LoginStoryboard.storyboard in Resources */,
-				A033FFE41CFFD61D00F53698 /* MusicListWithSection.storyboard in Resources */,
 				BC9C45321D241E3100B4F965 /* 1_Intro_MAIN.mp3 in Resources */,
 				5643E1AC1C0C35CC005D1A1C /* Music.storyboard in Resources */,
 				A03F0D3D1D0715920091DD45 /* ProcessStoryboard.storyboard in Resources */,
